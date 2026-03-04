@@ -1,4 +1,4 @@
-# Koulier
+# Company Incorporation Tool
 
 A full-stack web app for managing companies and their shareholders.
 
