@@ -12,7 +12,7 @@ services:
       - "5432:5432"
 
   backend:
-    build: ./backend
+    image: ghcr.io/rohanthp60/company-backend:latest
     restart: unless-stopped
     depends_on:
       - db
@@ -30,7 +30,7 @@ services:
       - "5000:5000"
 
   frontend:
-    build: ./frontend
+    image: ghcr.io/rohanthp60/company-frontend:latest
     restart: unless-stopped
     depends_on:
       - backend
